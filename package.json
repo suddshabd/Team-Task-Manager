@@ -1,0 +1,21 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "A full-stack team task management system with authentication, project management, task tracking, and role-based access control.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suddshabd/Team-Task-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suddshabd/Team-Task-Manager/issues"
+  },
+  "homepage": "https://github.com/suddshabd/Team-Task-Manager#readme"
+}
