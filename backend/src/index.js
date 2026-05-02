@@ -151,13 +151,13 @@ app.get('/api/health', (req, res) => {
  * ✅ 🔥 SERVE FRONTEND (VERY IMPORTANT)
  * This MUST come AFTER API routes
  */
-app.use(express.static(path.join(__dirname, "frontend/dist")));
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
 /**
  * ✅ CATCH-ALL (React Router Support)
  */
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, "frontend/dist/index.html"));
+    res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
 });
 
 /**
